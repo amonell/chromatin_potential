@@ -13,3 +13,5 @@ Readinannotations python script and then findingspearman python script to find D
 
 Smoothing_scores python to get the smoothed matrices.
 
+Put into chr_pot.R to see chromatin potential.
+
