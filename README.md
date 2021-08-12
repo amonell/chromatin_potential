@@ -11,3 +11,5 @@ Start running cistopic.R with the necessary initial data.
 
 Readinannotations python script and then findingspearman python script to find DORCS.
 
+Smoothing_scores python to get the smoothed matrices.
+
