@@ -56,9 +56,21 @@ Readinannotations python script and then findingspearman python script to find D
   
     In FindingSpearman read in this peak table. the peak counts matrix, the cell barcodes for both peaks and rna, the rna expression matrix, and the RNA features.
     
-      - Next, output the peaks_used_in_barcodes file and read it into    
+      - Next, output the peaks_used_in_barcodes file and read it into generating_background_peaks.R along with the peaks bed file.
+      - Take the ouputted background peaks, read them into findingspearman, and continue.  The correlations will take a long time to run, a 5000 cell dataset will take 0.5 days.
+      - The significantly correlated peaks will be outputted.
+      
 }
+
 Smoothing_scores python to get the smoothed matrices.
+
+{
+    
+    Read in the significantly correlated peaks that were output from findingspearman, the normalized peak counts, the rna counts, and the cistopic topic-cell probability matrix.
+    
+    Ouptut is the smoothed DORC scores, smoothed RNA exression, and the cellbarcodes for the DORC scores.
+    
+}
 
 Put into chr_pot.R to see chromatin potential.
 
