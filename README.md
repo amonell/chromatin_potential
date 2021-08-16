@@ -74,3 +74,10 @@ Smoothing_scores python to get the smoothed matrices.
 
 Put into chr_pot.R to see chromatin potential.
 
+{
+
+    Input the smoothed tables, barcodes, and celltypes (luminal vs. basal) along with the umap coordinates (mapcoords).  
+    Make sure peak names are in same format between cellindex and rownames(mapcoords). This means they must be both length 300 with the same spacing characters. 
+    If not using to look at luminal vs basal, change the umap.smooth mutate cases.
+    
+}
