@@ -36,6 +36,9 @@ Createannotaions.R to annotate the peaks. (Can combine with read_in_initial_data
   {
   
     Just feed in the peak names bed file and get the output annotations file.
+    
+    Can adjust the genome being used if necessary.
+   
   }
   
 
@@ -48,7 +51,7 @@ Start running cistopic.R with the necessary initial data.
     Output: The cisTopic topic-cell probabilities and the UMAP coordinates produced by cisTopic.
   }
   
-Readinannotations python script and then findingspearman python script to find DORCS.
+Readinannotations.ipynb and then FindingSpearman.ipynb to find DORCS.
 
 {
   
@@ -80,4 +83,5 @@ Put into chr_pot.R to see chromatin potential.
     Make sure peak names are in same format between cellindex and rownames(mapcoords). This means they must be both length 300 with the same spacing characters. 
     If not using to look at luminal vs basal, change the umap.smooth mutate cases.
     
+    In ggplot2, change the scale_mag maxsize parameter to adjust the arrow length.  Change the skip parameter in geom_arrow to adjust how sparse the arrow layout is.
 }
