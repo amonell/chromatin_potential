@@ -42,7 +42,7 @@ Createannotaions.R to annotate the peaks. (Can combine with read_in_initial_data
   
   
 
-Start running cistopic.R with the necessary initial data.
+Start running cistopic.R with the necessary initial data.  Run the next step (Readinannotations.ipynb and FindingSpearman.ipynb) at the same time.
 
   
   
