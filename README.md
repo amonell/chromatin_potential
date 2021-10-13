@@ -78,7 +78,7 @@ Smoothing_scores python to get the smoothed matrices.
 
 
 
-Put into chr_pot.R to see chromatin potential.
+Put into chrpot_highdimension.R to see chromatin potential.
 
 
 
@@ -88,3 +88,4 @@ Put into chr_pot.R to see chromatin potential.
     
     In ggplot2, change the scale_mag maxsize parameter to adjust the arrow length.  Change the skip parameter in geom_arrow to adjust how sparse the arrow layout is.
 
+Use Archr coordinates in chromatin potential with get archer coordinates output in chrpot_highdimension.
