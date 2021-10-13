@@ -5,7 +5,7 @@ Order of running scripts:
 
 Prerequisites: The RNA and DNA data should be ordered and named with identical cell barcodes.  RNA expression should be log normalized.  Peak counts shoud be the raw numbers.
 
-Read_in_initial_data.R to get all the files needed from the RDS objects.
+reading_in_initial_data.R to get all the files needed from the RDS objects.
   
   -This is set up to read in the rna_exression matrix and peak_expression matrix of the foxA1 data as SummarizedExperiment and RangedSummarizedExperiment Objects.  This file will have to be modified based on the input format and names to create the necessary files for downstream use.
   
