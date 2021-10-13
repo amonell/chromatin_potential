@@ -52,7 +52,7 @@ Start running cistopic.R with the necessary initial data.  Run the next step (Re
   
   
   
-Readinannotations.ipynb and then FindingSpearman.ipynb to find DORCS.
+readingannotations.ipynb and then FindingSpearman Correct.ipynb to find DORCS.
 
 
   
