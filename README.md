@@ -88,4 +88,4 @@ Put into chrpot_highdimension.R to see chromatin potential.
     
     In ggplot2, change the scale_mag maxsize parameter to adjust the arrow length.  Change the skip parameter in geom_arrow to adjust how sparse the arrow layout is.
 
-Use Archr coordinates in chromatin potential with get archr coordinates output plugged into in chrpot_highdimension.
+Use Archr coordinates in chromatin potential with get archr coordinates output plugged into in chrpot.R.
